@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="../woniucss/shop.css">
+ <link rel="stylesheet" href="../woniucss/header-2.css">
+ <link rel="stylesheet" href="../woniucss/删除.scss">
+ <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+
+</head>
+ <body>
+
+    
+    <!-- 中间内容 -->
+    <div class="header">
+        <div class="h-module1">
+            <div class="left-logo"></div>
+            <div class="right-login">
+                <div class="login-a">
+                    <a href="">登录</a>
+                    <div class="vline"></div>
+                    <a href="">注册</a>
+                </div>
+                <input type="text" placeholder="热门搜索：干花花瓶" maxlength="16">
+                <a href="" class="user"></a>
+                <a href="" class="QRcode"></a>
+                <a href="" class="shopping-card"></a>
+            </div>
+        </div>
+        <div class="h-module2">
+            <div class="list-nav">
+                <ul>
+                    <li>
+                        <a href="" class="achange">首页</a>
+                        <div class="line"></div>
+                    </li>
+                    <li>
+                        <a href="" class="achange">所有商品</a>
+                        <div class="line"></div>
+                        <div class="sub_nav1">
+                            <a href="" class="achange2">
+                                <div class="sn_icon">
+                                    <div><img src="../imgs/nav1.jpg" alt=""></div>
+                                    浓情欧式
+                                </div>
+                            </a>
+                            <a href="" class="achange2">
+                                <div class="sn_icon">
+                                    <div><img src="../imgs/nav2.jpg" alt=""></div>
+                                    浪漫美式
+                                </div>
+                            </a>
+                            <a href="" class="achange2">
+                                <div class="sn_icon">
+                                    <div><img src="../imgs/nav3.jpg" alt=""></div>
+                                    雅致中式
+                                </div>
+                            </a>
+                            <a href="" class="achange2">
+                                <div class="sn_icon">
+                                    <div><img src="../imgs/nav6.jpg" alt=""></div>
+                                    简约现代
+                                </div>
+                            </a>
+                            <a href="" class="achange2">
+                                <div class="sn_icon">
+                                    <div><img src="../imgs/nav5.jpg" alt=""></div>
+                                    创意装饰
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="achange">装饰摆件</a>
+                        <div class="line"></div>
+                        <div class="sub_nav2">
+                            <a href="" class="achange3">干花华艺</a>
+                            <a href="" class="achange3">花瓶花器</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="achange">布艺软饰</a>
+                        <div class="line"></div>
+                        <div class="sub_nav"></div>
+                    </li>
+                    <li>
+                        <a href="" class="achange">墙饰壁挂</a>
+                        <div class="line"></div>
+                        <div class="sub_nav"></div>
+                    </li>
+                    <li>
+                        <a href="" class="achange">蜡艺香薰</a>
+                        <div class="line"></div>
+                        <div class="sub_nav"></div>
+                    </li>
+                    <li>
+                        <a href="" class="achange">创意家居</a>
+                        <div class="line"></div>
+                        <div class="sub_nav"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="content">
+   <div class="sphead">
+    <div class="spheadbox">
+        <div class="sphead-w1">购物车</div>
+        <div class="sphead-img1 percentage">
+            <img src="../img/img/temp/cartTop01.jpg" alt="">
+        </div>
+       <a href="../2-index.html"> <div class="sphead-w2">继续购物></div></a>
+    </div>
+   </div>
+   <div class="spnav">
+       <ul>
+           <li>商品</li>
+           <li>单价</li>
+           <li>数量</li>
+           <li>小计</li>
+           <li>操作</li>
+       </ul>
+   </div>
+   <div class="spcontainer">
+       <div class="box1"></div>
+       <div class="box2 percentage">
+           <img src="../img/img/temp/sec102.jpg" alt="">
+       </div>
+       <div class="box3">
+           <ul>
+               <li>创意现代简约干花花瓶摆件</li>
+               <li>颜色分类：</li>
+               <li>白色瓷瓶+白色串枚</li>
+           </ul>
+       </div>
+       <div class="box4">￥20.00</div>
+       <div class="box5">
+           <div class="box5-img percentage">
+               <img src="../img/img/temp/sub.jpg" alt="">
+           </div>
+           <span>1</span>
+           <div class="box5-img percentage left">
+            <img src="../img/img/temp/add.jpg" alt="">
+        </div>
+       </div>
+    
+   
+       <div class="box6" ><a href=""></a>
+        
+        <button  id="shanchu" data-toggle="modal" data-target="#myModal">
+            删除
+        </button>
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="box">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            取消
+                        </button> -->
+                        <h4 class="modal-title" id="myModalLabel">
+                            确定要删除该商品吗
+                        </h4>
+                    </div>
+                    <!-- <div class="modal-body">
+                        在这里添加一些文本
+                    </div> -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" id="queding" data-dismiss="modal">
+                        确定
+                        </button>
+                        <button type="button" class="btn btn-default" id="quxiao" data-dismiss="modal">
+                           取消
+                        </button>
+                        <!-- <button type="button" class="btn btn-primary">
+                            取消
+                        </button> -->
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+            </div>
+        
+        </div>
+   <div class="spcontainer">
+    <div class="box1"></div>
+    <div class="box2 percentage">
+        <img src="../img/img/temp/vase03.jpg" alt="">
+    </div>
+    <div class="box3">
+        <ul>
+            <li>创意现代简约干花花瓶摆件</li>
+            <li>颜色分类：</li>
+            <li>白色瓷瓶+白色串枚</li>
+        </ul>
+    </div>
+    <div class="box4">￥20.00</div>
+    <div class="box5">
+        <div class="box5-img percentage">
+            <img src="../img/img/temp/sub.jpg" alt="">
+        </div>
+        <span>1</span>
+        <div class="box5-img percentage left">
+         <img src="../img/img/temp/add.jpg" alt="">
+     </div>
+    </div>
+ 
+  
+    <div class="box6" ><a href=""></a>
+        
+        <button  id="shanchu" data-toggle="modal" data-target="#myModal">
+            删除
+        </button>
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="box">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            取消
+                        </button> -->
+                        <h4 class="modal-title" id="myModalLabel">
+                            确定要删除该商品吗
+                        </h4>
+                    </div>
+                    <!-- <div class="modal-body">
+                        在这里添加一些文本
+                    </div> -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" id="queding" data-dismiss="modal">
+                        确定
+                        </button>
+                        <button type="button" class="btn btn-default" id="quxiao" data-dismiss="modal">
+                           取消
+                        </button>
+                        <!-- <button type="button" class="btn btn-primary">
+                            取消
+                        </button> -->
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+            </div>
+        
+        </div>
+<div class="spcontainer">
+    <div class="box1"></div>
+    <div class="box2 percentage">
+        <img src="../img/img/temp/vase04.jpg" alt="">
+    </div>
+    <div class="box3">
+        <ul>
+            <li>创意现代简约干花花瓶摆件</li>
+            <li>颜色分类：</li>
+            <li>白色瓷瓶+白色串枚</li>
+        </ul>
+    </div>
+    <div class="box4">￥20.00</div>
+    <div class="box5">
+        <div class="box5-img percentage">
+            <img src="../img/img/temp/sub.jpg" alt="">
+        </div>
+        <span>1</span>
+        <div class="box5-img percentage left">
+         <img src="../img/img/temp/add.jpg" alt="">
+     </div>
+    </div>
+ 
+    <div class="box6" ><a href=""></a>
+        
+<button  id="shanchu" data-toggle="modal" data-target="#myModal">
+	删除
+</button>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="box">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					取消
+				</button> -->
+				<h4 class="modal-title" id="myModalLabel">
+					确定要删除该商品吗
+				</h4>
+			</div>
+			<!-- <div class="modal-body">
+				在这里添加一些文本
+			</div> -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" id="queding" data-dismiss="modal">
+				确定
+                </button>
+                <button type="button" class="btn btn-default" id="quxiao" data-dismiss="modal">
+                   取消
+                </button>
+				<!-- <button type="button" class="btn btn-primary">
+					取消
+				</button> -->
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+    </div>
+
+</div>
+<div class="spcontainer">
+    <div class="box1"></div>
+    <div class="box2 percentage">
+        <img src="../img/img/temp/vase02.jpg" alt="">
+    </div>
+    <div class="box3">
+        <ul>
+            <li>创意现代简约干花花瓶摆件</li>
+            <li>颜色分类：</li>
+            <li>白色瓷瓶+白色串枚</li>
+        </ul>
+    </div>
+    <div class="box4">￥20.00</div>
+    <div class="box5">
+        <div class="box5-img percentage">
+            <img src="../img/img/temp/sub.jpg" alt="">
+        </div>
+        <span>1</span>
+        <div class="box5-img percentage left">
+         <img src="../img/img/temp/add.jpg" alt="">
+     </div>
+    </div>
+    <div class="box6" ><a href=""></a>
+        
+        <button  id="shanchu" data-toggle="modal" data-target="#myModal">
+            删除
+        </button>
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="box">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            取消
+                        </button> -->
+                        <h4 class="modal-title" id="myModalLabel">
+                            确定要删除该商品吗
+                        </h4>
+                    </div>
+                    <!-- <div class="modal-body">
+                        在这里添加一些文本
+                    </div> -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" id="queding" data-dismiss="modal">
+                        确定
+                        </button>
+                        <button type="button" class="btn btn-default" id="quxiao" data-dismiss="modal">
+                           取消
+                        </button>
+                        <!-- <button type="button" class="btn btn-primary">
+                            取消
+                        </button> -->
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+            </div>
+
+</div>
+<div class="spcontainer">
+    <div class="box1"></div>
+    <div class="box2 percentage">
+        <img src="../img/img/temp/vase06.jpg" alt="">
+    </div>
+    <div class="box3">
+        <ul>
+            <li>创意现代简约干花花瓶摆件</li>
+            <li>颜色分类：</li>
+            <li>白色瓷瓶+白色串枚</li>
+        </ul>
+    </div>
+    <div class="box4">￥20.00</div>
+    <div class="box5">
+        <div class="box5-img percentage">
+            <img src="../img/img/temp/sub.jpg" alt="">
+        </div>
+        <span>1</span>
+        <div class="box5-img percentage left">
+         <img src="../img/img/temp/add.jpg" alt="">
+     </div>
+    </div>
+ 
+    <div class="box6" ><a href=""></a>
+        
+        <button  id="shanchu" data-toggle="modal" data-target="#myModal">
+            删除
+        </button>
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" id="box">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            取消
+                        </button> -->
+                        <h4 class="modal-title" id="myModalLabel">
+                            确定要删除该商品吗
+                        </h4>
+                    </div>
+                    <!-- <div class="modal-body">
+                        在这里添加一些文本
+                    </div> -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" id="queding" data-dismiss="modal">
+                        确定
+                        </button>
+                        <button type="button" class="btn btn-default" id="quxiao" data-dismiss="modal">
+                           取消
+                        </button>
+                        <!-- <button type="button" class="btn btn-primary">
+                            取消
+                        </button> -->
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+            </div>
+
+</div>
+<div class="spnav2">
+    <ul>
+        <li>
+            <div class="box1"></div>
+            <span>全选</span>
+        </li>
+        <li>删除</li>
+        <li>共计<span1 style="color: red;">0</span1>件商品</li>
+        <li>合计：￥0.00</li>
+        <!-- to do加链接 -->
+        <li style="height: 30px; line-height: 30px;"> <a  href="3-kgl-orderConfirm.html" style="color: black;">结算</a></li>
+    </ul>
+</div>
+</div>
+
+
+</body>
+</html>

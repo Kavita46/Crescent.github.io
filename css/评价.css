@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1172px;
+  height: 1830px;
+  margin-left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .container1 {
+  width: 950px;
+  height: 1830px;
+}
+
+.container .container1 .title1 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 950px;
+  height: 44px;
+}
+
+.container .container1 .title1 li {
+  width: 90px;
+  height: 44px;
+  list-style: none;
+  float: left;
+  line-height: 44px;
+  text-align: center;
+}
+
+.container .container1 .title1 li a {
+  color: black;
+  text-decoration: none;
+}
+
+.container .container1 .title1 .li1 {
+  border-bottom: 2px solid red;
+  margin-left: 40px;
+}
+
+.container .container1 .title1 .li1 a {
+  color: red;
+}
+
+.container .container1 .main {
+  border-bottom: 1px dotted gray;
+  width: 950px;
+  height: 160px;
+  position: relative;
+}
+
+.container .container1 .main p {
+  position: absolute;
+  left: 50px;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+
+.container .container1 .main p:nth-child(2) {
+  top: 0px;
+}
+
+.container .container1 .main p:nth-child(3) {
+  bottom: 20px;
+}
+
+.container .container1 .main p:nth-child(4) {
+  color: #262626;
+  top: 40px;
+}
+
+.container .container1 .main .ph {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.container .container1 .main .ph img {
+  width: 100%;
+}
+
+.container .container1 .main .box {
+  width: 305px;
+  height: 40px;
+  position: absolute;
+  bottom: 50px;
+  left: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .container1 .main .box .ph1 {
+  width: 40px;
+  height: 40px;
+}
+
+.container .container1 .main .box .ph1 img {
+  width: 100%;
+}
+
+.container .container1 .main1 {
+  border-bottom: 1px dotted gray;
+  width: 950px;
+  height: 160px;
+  position: relative;
+  line-height: 30px;
+}
+
+.container .container1 .main1 p {
+  position: absolute;
+  left: 50px;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+
+.container .container1 .main1 p:nth-child(2) {
+  top: 0px;
+}
+
+.container .container1 .main1 p:nth-child(3) {
+  bottom: 20px;
+}
+
+.container .container1 .main1 p:nth-child(4) {
+  color: #262626;
+  top: 40px;
+}
+
+.container .container1 .main1 .ph {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.container .container1 .main1 .ph img {
+  width: 100%;
+}
+
+.container .container1 .main1 .box {
+  width: 305px;
+  height: 40px;
+  position: absolute;
+  bottom: 50px;
+  left: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .container1 .main1 .box .ph1 {
+  width: 40px;
+  height: 40px;
+}
+
+.container .container1 .main1 .box .ph1 img {
+  width: 100%;
+}
+
+.container .right {
+  width: 202px;
+  height: 1414px;
+}
+
+.container .right > p {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  background-color: #f6f6f6;
+}
+
+.container .right .box {
+  width: 160px;
+  height: 318px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.container .right .box .ph2 {
+  width: 160px;
+  height: 243px;
+}
+
+.container .right .box .ph2 img {
+  width: 100%;
+}
+
+.container .right .box p:nth-child(2) {
+  height: 13px;
+  font-size: 12px;
+  color: #000;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.container .right .box p:nth-child(3) {
+  height: 9px;
+  font-size: 12px;
+  color: #666;
+  margin-top: 15px;
+  background-color: white;
+}
