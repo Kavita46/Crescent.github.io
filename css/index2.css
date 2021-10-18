@@ -345,6 +345,43 @@
 .comm-photo12{
     background: url(../imgs/temp/vase03.jpg) no-repeat center;
 }
+
+.comm-photo-1{
+  background: url(../img-ls/pro01.jpg) no-repeat center;
+}
+.comm-photo-2{
+  background: url(../img-ls/pro02.jpg) no-repeat center;
+}
+.comm-photo-3{
+  background: url(../img-ls/pro03.jpg) no-repeat center;
+}
+.comm-photo-4{
+  background: url(../img-ls/pro04.jpg) no-repeat center;
+}
+.comm-photo-5{
+  background: url(../img-ls/pro05.jpg) no-repeat center;
+}
+.comm-photo-6{
+  background: url(../img-ls/pro06.jpg) no-repeat center;
+}
+.comm-photo-7{
+  background: url(../img-ls/pro07.jpg) no-repeat center;
+}
+.comm-photo-8{
+  background: url(../img-ls/pro08.jpg) no-repeat center;
+}
+.comm-photo-9{
+  background: url(../img-ls/proBig03.jpg) no-repeat center;
+}
+.comm-photo-10{
+  background: url(../img-ls/probig01.jpg) no-repeat center;
+}
+.comm-photo-11{
+  background: url(../img-ls/proBig02.jpg) no-repeat center;
+}
+.comm-photo-12{
+  background: url(../img-ls/proBig04.jpg) no-repeat center;
+}
 .limit_line{
     margin: 25px auto;
 }
